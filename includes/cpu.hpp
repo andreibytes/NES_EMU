@@ -47,7 +47,7 @@ class CPU {
          } m_registers;
         e_Addressing_modes m_current_addressing_mode;
         BUS m_bus;
-        bool debug_set;
+        bool m_debug_set;
     private:
         void ADC(); void AND(); void ASL(); void BCC();
         void BCS(); void BEQ(); void BIT(); void BMI();
